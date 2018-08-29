@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Test</title>
+</head>
+<body>
+	<script>
+		main();
+
+		function main() {
+			let a = 1;
+			let b = 2;
+
+			let c = {
+				'one': 10,
+				'two': 20
+			};
+
+			findVars();
+
+			function findVars() {
+				for (key in c) {
+					showVars();
+				}
+			}
+
+			function showVars() {
+				console.log(a);
+				console.log(b);
+			}
+		}
+	</script>
+	
+</body>
+</html>
