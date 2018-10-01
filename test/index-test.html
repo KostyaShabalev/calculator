@@ -6,30 +6,51 @@
 </head>
 <body>
 	<script>
-		main();
+		
+// 		class Calculator {
+// 			constructor() {
+// 				this.buttonList = 5;
+// 				this.display = '';
+// 				this.evaluator = {
+// 					currValue: 0,
+// 					currOperator: '',
+// 					result: 0
+// 				};
+// 				this.flags = {
 
-		function main() {
-			let a = 1;
-			let b = 2;
+// 				}
+// 			}
 
-			let c = {
-				'one': 10,
-				'two': 20
-			};
+// 			showButtonList() {
+// 				console.log(this.buttonList);
+// 			}
 
-			findVars();
+// 			digActions(digit) {
+// 				blaBlaFun(digit);
+// 			};
+// 		}
 
-			function findVars() {
-				for (key in c) {
-					showVars();
-				}
-			}
 
-			function showVars() {
-				console.log(a);
-				console.log(b);
-			}
-		}
+// }
+
+// 		let calc = new Calculator;
+
+// 		calc.digActions(5);
+
+// 		function blaBlaFun(digit) {
+// 			console.log(digit * 2);
+// 			console.log(calc.buttonList);
+// 		}
+
+
+let evt = new Event('click');
+
+evt.innerHTML = '^';
+
+console.log(evt);
+
+
+
 	</script>
 	
 </body>
